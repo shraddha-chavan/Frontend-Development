@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* ID selector always start from # */
+      #heading1 {
+        color: blue;
+      }
+      #main {
+        color: brown;
+      }
+      /* class selector is start with .  */
+      /* used for multiple elements */
+      .sample {
+        background-color: blanchedalmond;
+      }
+      .bordered {
+        border: solid blue;
+      }
+      p[draggable] {
+        color: blue;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1 id="heading1" class="sample bordered">React</h1>
+    <!-- in above line two clases takes place sample as well as bordered  -->
+    <h1 id="main">Reactjs</h1>
+    <p class="sample bordered">
+      <!-- in above line two clases takes place sample as well as bordered  -->
+
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, ut!
+    </p>
+    <h3 class="sample">shraddha</h3>
+    <!-- attribute selector used to dragged the elements -->
+    <p draggable="true">shraddha chavan is clever girl.</p>
+    <!-- attribute selector is applied only to above paragraph  beacuse true is written-->
+    <p draggable="false">shraddha chavan is clever girl.</p>
+    <!-- attribute selector is not applied  to above paragraph  because here we write false-->
+    <p>yes she is</p>
+
+  </body>
+</html>
