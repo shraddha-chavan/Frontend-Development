@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS types</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Internal CSS */
+      h2 {
+        color: blueviolet;
+        background-color: bisque;
+      }
+      h4 {
+        color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Inline CSS -->
+    <h1 style="color: rgb(93, 20, 228); background-color: rgb(233, 233, 22)">
+      React
+    </h1>
+    <!-- Internal CSS -->
+    <h2>Javascript</h2>
+    <!-- External CSS -->
+    <!-- using style.css -->
+    <h3>Python</h3>
+    <!-- for the demo of cascading -->
+    <!-- inline css have more priority ,then internal,then external -->
+    <!-- in h4 we use 3 css then inline css is applied -->
+    <h4 style="color: brown">Rust</h4>
+  </body>
+</html>
