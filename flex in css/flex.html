@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0%;
+      }
+      .container{
+        display: flex;
+        height: 70vh;
+        border: 2px solid blue;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+      }
+
+      .red {
+        background-color: red;
+        order: 2;
+      }
+      .pink {
+        background-color: pink;
+        order: 1;
+        /* for ordering 1st or last */
+      }
+      .blue {
+        background-color: blue;
+      }
+      .green {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="red">Red</div>
+      <div class="pink">Pink</div>
+      <div class="blue">Blue</div>
+      <div class="green">Green</div>
+    </div>
+  </body>
+</html>
